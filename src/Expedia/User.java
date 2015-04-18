@@ -29,7 +29,7 @@ public class User {
 		
 	}
 	
-	private double GetDiscount()
+	public double GetDiscount()
 	{
 		double result = 1.0;
 		for(Discount discount : ServiceLocator.Instance().AvailableDiscounts())
